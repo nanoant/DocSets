@@ -34,20 +34,20 @@ div.refsect1 {
 }
 code, tt, pre, div.funcsynopsis td, span.citerefentry {
 	font-family: Menlo, monospace;
-	font-weight: normal;
-	color: #900;
 }
-code.funcdef, div.funcsynopsis td, div.funcsynopsis td code {
-	color: #000;
+div.funcsynopsis, div.funcsynopsis td {
+	font-size: 14px;
 }
 div.refentry > div, body > p, body > h2 {
 	padding: 0 20px;
 }
 div.refentry > div.refsynopsisdiv {
 	border-top: 1px solid #eee;
-	padding-bottom: 20px;
-	background-color: #f9f9f9;
+	padding: 10px 20px;
+	background-image: -webkit-gradient(linear,center top,center bottom,from(#fff6e0),color-stop(0.6,#fff9ea),color-stop(0.9,#fff9ea),to(#fff6e0));
+	border-bottom: 1px solid #fff0d0;
 }
+div.refentry > div.refsynopsisdiv h2 { display: none; }
 div.refentry {
 	margin: 0;
 }
@@ -71,7 +71,7 @@ div.refnamediv h2 {
 	font-size: 19px;
 }
 div.refnamediv {
-	background-color: #eee;
+	background-color: #fff;
 }
 a:visited, a:visited span.citerefentry {
 	color: #036;
