@@ -23,9 +23,8 @@ h1 {
 	padding: 20px;
 }
 h2 {
-	color: #369;
+	color: #f24e32;
 	font-weight: normal;
-	font-style: italic;
 	font-size: 17px;
 }
 div.refsect1 {
